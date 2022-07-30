@@ -4,652 +4,275 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiki</title>
-    <link rel="shortcut icon" href="./assets/img/logo-tiki.png" />
-    <link rel="stylesheet" href="./assets/font/fontawesome/fontawesome-free-6.1.1-web/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/grid.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/css/product.css">
+    <title>Ju Jingji</title>
+    <link rel="shortcut icon" href="https://img.lovepik.com/element/40088/7787.png_860.png" />
+    <link rel="stylesheet" href="./assets/icons/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
 </head>
 <body>
-    <div id="header">
-        <div class="grid wide">
-            <div class="header__top">
-                <div class="wrap-header__width-search">
-                    <div class="header__width-search">
-                        <a href="" class="hide-on-mobile-tablet header__logo">
-                            <img src="./assets/img/logo-tiki.png" alt="" class="header__logo-img">
-                        </a>
-                        <div for="open-form-search" class="header__search">
-                            <label class="hide-on-pc hide-on-tablet" for="open-form-search">Nhập để tìm kiếm</label>
-                            <input type="text" placeholder="Nhập để tìm kiếm" class="hide-on-mobile header__search-input">
-                            <button class="hide-on-mobile header__search-button">
-                                <img src="./assets/img/search-icon.png" alt="" class="header__search-img">
-                                <span class="header__search-button-text">Tìm kiếm</span>
-                            </button>
-                            <div class="hide-on-mobile header__search-history">
-                                <h3 class="history-heading">Lịch sử tìm kiếm</h3>
-                                <ul class="history-list">
-                                    <li class="history-item">
-                                        <img src="./assets/img/search-history.png" alt="" class="history-search-img">
-                                        tai nghe bluetooth
-                                    </li>
-                                    <li class="history-item">
-                                        <img src="./assets/img/search-history.png" alt="" class="history-search-img">
-                                        sách
-                                    </li>
-                                    <li class="history-item">
-                                        <img src="./assets/img/search-history.png" alt="" class="history-search-img">
-                                        iphone 13
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <label for="open-auth" class="header__cart">
-                            <div class="header__cart-logo">
-                                <img src="./assets/img/cart-icon.png" alt="" class="header__cart-logo-img">
-                                <span>0</span>
-                            </div>
-                        </label>
-                        <div class="hide-on-mobile header__user">
-                            <img src="./assets/img/user-icon.png" alt="" class="user-icon">
-                            <label for="open-auth" class="user__account">
-                                <label for="open-auth" class="header__user-login-register">Đăng nhập / Đăng ký</label>
-                                <label for="open-auth" class="header__user-account">
-                                    Tài khoản
-                                    <img src="./assets/img/arrow.png" alt="" class="user-account-down-icon">
-                                </label>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hide-on-mobile-tablet header__bottom">
-                <a href="" class="freeship-icon">
-                    <img src="./assets/img/logo-freeship.png" alt="" class="freeship-img">
-                </a>
-                <ul class="category-list">
-                    <li class="category-item">
-                        <a class="category-item-link" href="">trái cây</a>
-                    </li>
-                    <li class="category-item">
-                        <a class="category-item-link" href="">quần áo</a>
-                    </li>
-                    <li class="category-item">
-                        <a class="category-item-link" href="">thịt trứng</a>
-                    </li>
-                    <li class="category-item">
-                        <a class="category-item-link" href="">balo</a>
-                    </li>
-                    <li class="category-item">
-                        <a class="category-item-link" href="">giày dép</a>
-                    </li>
-                    <li class="category-item">
-                        <a class="category-item-link" href="">tv</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <input type="checkbox" name="" id="open-form-search">
-    <div class="hide-on-pc hide-on-tablet search-history-mobile">
-        <div class="form-search">
-            <div class="search">
-                <label for="open-form-search"><i class="back-icon fa-solid fa-arrow-left"></i></label>
-                <div class="mobile-search">
-                    <input type="text" placeholder="Nhập để tìm kiếm" class="mobile-search-input">
-                </div>
-            </div>
-            <ul class="mobile-history-list">
-                <li class="mobile-history-item">
-                    tai nghe bluetooth
-                </li>
-                <li class="mobile-history-item">
-                    sách
-                </li>
-                <li class="mobile-history-item">
-                    iphone 13
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#singer">Singer</a></li>
+                <li><a href="#tour-black">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="#socail">Socail</a></li>
+                    </ul>
                 </li>
             </ul>
-            <div class="show-more">Hiển thị nhiều hơn</div>
+
+            <i class="ti-search"></i>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="ti-menu"></i>
+            </div>
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">Shanghai</h2>
+                <div class="text-description">Thanks Shanghai - A night i won't foget.</div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="singer-color">
+                <div id="singer" class="content-section">
+                    <div >
+                        <h2 class="section-heading">Ju Jingyi</h2>
+                        <p class="section-sub-heading">Honey always loves you.</p>
+                        <p class="about-text">
+                            Ju Jingyi (born June 18, 1994) is a Chinese singer, actress, and dancer. She is a former center, member of the girl group SNH48 and is currently pursuing a solo career. She is an A-list female star, in the top 3 most famous flowers Cbiz  (including Heat Ba and Yangtze). In 2019, Cuc Thanh Y made the Forbes List of 100 Famous Chinese Stars for the first time with a ranking of 94[1], and in 2020 was ranked 84th. 2021 with a ranking of 15.
+                        </p>
+                        <div class="member-list">
+                            <div class="member-item col col-third text-center">
+                                <p class="name">Ju Jingyi</p>
+                                <img src="./assets/img/info/info1.jpg" alt="" class="member-img" >
+                            </div>
+    
+                            <div class="member-item col col-third text-center">
+                                <p class="name">Ju Jingyi</p>
+                                <img src="./assets/img/info/info2.jpg" alt="" class="member-img" >
+                            </div>
+    
+                            <div class="member-item col col-third text-center">
+                                <p class="name">Ju Jingyi</p>
+                                <img src="./assets/img/info/info3.jpg" alt="" class="member-img" >
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tour-black" class="tour-color">
+                <div class="content-section">
+                    <div id="tour">
+                        <h2 class="section-heading">Tour dates</h2>
+                        <p class="section-sub-heading">Remember to book your tickets!</p>
+                        <ul class="ticket-list">
+                            <li>
+                                September
+                                <spna class="sold-out">Sold out</spna>
+                            </li>
+                            <li>
+                                October 
+                                <spna class="sold-out">Sold out</spna>
+                            </li>
+                            <li>
+                                November 
+                                <span class="slot">3</span>
+                            </li>
+                        </ul>
+
+                        <div class="row place-list">
+                            <div class="place-item col col-third">
+                                <img src="./assets/img/place/place1.jpg" alt="" class="place-img">
+                                <div class="place-body">
+                                    <h3 class="place-heading">Sichuan</h3>
+                                    <p class="place-time">Sat 28 Nov 2016</p>
+                                    <p class="place-content">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="s-full-width btn-color js-buy-ticket buy-btn">Buy Tickets</button>
+                                </div>
+                            </div>
+
+                            <div class="place-item col col-third">
+                                <img src="./assets/img/place/place2.jpg" alt="" class="place-img">
+                                <div class="place-body">
+                                    <h3 class="place-heading">Shanghai</h3>
+                                    <p class="place-time">Sat 29 Nov 2016</p>
+                                    <p class="place-content">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="s-full-width btn-color js-buy-ticket buy-btn">Buy Tickets</button>
+                                </div>
+                            </div>
+
+                            <div class="place-item col col-third">
+                                <img src="./assets/img/place/place3.jpg" alt="" class="place-img">
+                                <div class="place-body">
+                                    <h3 class="place-heading">Beiying</h3>
+                                    <p class="place-time">Sat 30 Nov 2016</p>
+                                    <p class="place-content">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="s-full-width btn-color js-buy-ticket buy-btn">Buy Tickets</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div class="contact-color">
+                <div id="contact" class="content-section">
+                    <div >
+                        <h2 class="section-heading">Contact</h2>
+                        <p class="section-sub-heading">Fan? Drop a note!</p>
+                    </div>
+    
+                    <div class="col contact-content">
+                        <div class="s-col-full col col-half contact-info">
+                            <p><i class="ti ti-location-pin"></i>Sichuan, TQ</p>
+                            <p><i class="ti ti-mobile"></i>Phone:+00 151515</p>
+                            <p><i class="ti ti-email"></i>Email:mail@mail.com</p>
+                        </div>
+                        <div class="s-col-full col col-half contact-form">
+                            <form action="">
+                                <div class="row">
+                                    <div class="s-col-full col col-half s-mt-8">
+                                        <input type="text" name="" required placeholder="Name" id="" class="form-control">
+                                    </div>
+                                    <div class="s-col-full col col-half s-mt-8">
+                                        <input type="email" name="" required placeholder="Email" id="" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-full mt-8">
+                                        <input type="text" name="" required placeholder="Masage" id="" class="form-control">
+                                    </div>
+                                </div>
+                                <button class="btn-color send-input" type="submit">SEND</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body-color " id="map">
+            <img src="./assets/img/map/map.jpg" alt="">
+        </div>
+
+        <div class="body-color" id="footer">
+            <div id="socail" class="socail-list">
+                <a target="_blank" href="https://www.facebook.com/vufak6"><i class="ti ti-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/_v.26thang1_/"><i class="ti ti-instagram"></i></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCHpbMZzsaDV65WU53vgt3fQ"><i class="ti ti-youtube"></i></a>
+                <a href="#"><i class="ti ti-pinterest"></i></a>
+                <a target="_blank" href="https://twitter.com/VNguyn77716928"><i class="ti ti-twitter"></i></a>
+                <a href="#"><i class="ti ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="#">w3.css</a></p>
         </div>
     </div>
 
-    <div id="main">
-        <div class="grid wide">
-            <div class="product-details-wrap">
-                <div class="row product-details">
-                    <div class="col l-4">
-                        <img class="product-img" src="./assets/img/sp/sp1.jpg" alt="">
+    <div class="modal js-modal">
+        <div class="modal-content">
+            <div class="">
+                <header class="modal-header">
+                    <div class="modal-close js-modal-close">
+                        <i class="ti-close"></i>
                     </div>
-                    <div class="col l-8">
-                        <div class="product-header">
-                            <h2 class="product-heading"></h2>
-                            <div class="title">
-                                <div class="review"></div>
-                                <p class="sold"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <nav class="main__category">
-                <ul class="main__category-list">
-                    <li class="main__category-item">
-                        <a class="main__category-item-link category-item--active">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                    <li class="main__category-item">
-                        <a class="main__category-item-link">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                    <li class="main__category-item">
-                        <a class="main__category-item-link">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                    <li class="main__category-item">
-                        <a class="main__category-item-link">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                    <li class="main__category-item">
-                        <a class="main__category-item-link">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                    <li class="main__category-item">
-                        <a class="main__category-item-link">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                    <li class="main__category-item">
-                        <a class="main__category-item-link">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                    <li class="main__category-item">
-                        <a class="main__category-item-link">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                    <li class="main__category-item">
-                        <a class="main__category-item-link">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                    <li class="main__category-item">
-                        <a class="main__category-item-link">
-                            <img src="./assets/img/tiki-select.png" alt="">
-                            <p>Tiki Chọn</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="main__product">
-                <div class="row list-product">
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col l-2 m-4 c-6 product-item">
-                        <a href="" class="product-item-link">
-                            <div style="background-image: url('./assets/img/sp/sp1.jpg');" class="product-item-img"></div>
-                            <div class="product-item-desc">
-                                <h3 class="product-item-name">[RẺ VÔ ĐỊCH]Túi đeo chéo nam nữ phong cách Hàn 🦋phụ kiện thời trang🦋túi đeo chéo deja, misout unisex ulzzang kèm video</h3>
-                                <div class="product-item-price">
-                                    <span class="product-price-new">
-                                        10.000 đ
-                                        <span class="price-sale">-50%</span>
-                                    </span>
-                                <span class="price-old">20.000 đ</span>
-                                <div class="progress">
-                                    <div class="bar">
-                                        <div class="percent"></div>
-                                        <div class="product-content">
-                                            <img src="./assets/img/fire-icon.png" alt="" class="fire-icon">
-                                            <span class="text">Đã bán 30</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="page-loading">
-                <div class="loading"><div></div><div></div><div></div><div></div></div>
-                <p>Loading</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="footer">
-        <div class="grid wide footer-wrap">
-            <div class="row" style="justify-content: center; text-align: center; margin-left: 0; margin-right: 0;">
-                <div class="col l-2-4 m-4 c-12">
-                    <h3 class="footer-heading">Hỗ trợ khách hàng</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item"><a href="" class="footer-item-link">Các câu hỏi thường gặp</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Gửi yêu cầu hỗ trợ</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Hướng dẫn đặt hàng</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Phương thức vận chuyển</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Chính sách đổi trả</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Hướng dẫn trả góp</a></li>
-                    </ul>
-                </div>
-                <div class="col l-2-4 m-4 c-12">
-                    <h3 class="footer-heading">Về Tiki</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item"><a href="" class="footer-item-link">Giới thiệu Tiki</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Tuyển dụng</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Chính sách bảo mật thanh toán</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Chính sách bảo mật thông tin cá nhân</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Chính sách giải quyết khiếu nại</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Giới thiệu Tiki Xu</a></li>
-                    </ul>
-                </div>
-                <div class="col l-2-4 m-4 c-12">
-                    <h3 class="footer-heading">Hợp tác và liên kết</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item"><a href="" class="footer-item-link">Quy chế hoạt động Sàn GDTMĐT</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Bán hàng cùng Tiki</a></li>
-                    </ul>
-                </div>
-                <div class="col l-2-4 m-4 c-12">
-                    <h3 class="footer-heading">Phương thức thanh toán</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item"><a href="" class="footer-item-link">Banking</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Fiat</a></li>
-                        <li class="footer-item"><a href="" class="footer-item-link">Crypto</a></li>
-                    </ul>
-                </div>
-                <div class="col l-2-4 m-4 c-12">
-                    <h3 class="footer-heading">Kết nối với chúng tôi</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a href="" class="footer-item-link">
-                                <i class="fa-brands fa-facebook"></i>
-                                <span>Facebook</span>
-                            </a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item-link">
-                                <i class="fa-brands fa-youtube"></i>
-                                <span>Youtube</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="grid wide">
-                <p>Trụ sở chính: Tòa nhà Viettel, Số 285, đường Cách Mạng Tháng 8, phường 12, quận 10, Thành phố Hồ Chí Minh</p>
-                <p>© 2022 - Bản quyền thuộc về Công ty TNHH 26-Shop</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- auth-form -->
-    <input type="checkbox" name="" id="open-auth">
-    <div class="overlay">
-        <div class="auth-form">
-            <label for="open-auth" class="close-auth">
-                <i class="fa-solid fa-xmark"></i>
-            </label>
-            <div class="form-phone">
-                <div class="left-form">
-                    <div class="auth-heading">
-                        <h3>Xin chào,</h3>
-                        <span>Đăng nhập hoặc Tạo tài khoản</span>
-                    </div>
-                    <div class="form">
-                        <input name="" type="tel" placeholder="Số Điện Thoại" class="auth-input">
-                        <button type="submit" class="continue-btn">Tiếp Tục</button>
-                    </div>
-                    <label for="close-form-email" class="swidth-procedure">Đăng nhập bằng email</label>
-                    <div class="auth-socials">
-                        <p>Hoặc tiếp tục bằng</p>
-                        <div class="auth-socails-icon">
-                            <a href="" class="auth-socails-link">
-                                <img src="./assets/img/fb.png" alt="" class="auth-fb">
-                            </a>
-                            <a href="" class="auth-socails-link">
-                                <img src="./assets/img/gg.png" alt="" class="auth-gg">
-                            </a>
-                        </div>
-                    </div>
-                    <p class="note">
-                        Bằng việc tiếp tục, bạn đã chấp nhận
-                        <a href="">Điều khoản sử dụng</a>
-                    </p>
-                </div>
-                <div class="right-form">
-                    <img class="auth-form-img" src="./assets/img/auth-form.png" alt="">
-                    <div class="content">
-                        <h4>Mua sắm tại Tiki</h4>
-                        <span>Siêu ưu đãi mỗi ngày</span>
-                    </div>
-                </div>
-                <input type="checkbox" name="" id="close-form-email">
-                <div class="form-email">
-                    <div class="left-form">
-                        <label for="close-form-email" class="hide-on-mobile back-btn">
-                            <i class="fa-solid fa-angle-left"></i>
+                    <h2 class="modal-wide">
+                        <i class="bag-icon ti-bag"></i>
+                    Tickets
+                    </h2>
+                </header>
+    
+                <div class="modal-container">
+                    <div class="">
+                        <label class="modal-label">
+                            <i class="ti-shopping-cart"></i>
+                            Tickets, $15 per person
                         </label>
-                        <div class="auth-heading">
-                            <h3>Đăng nhập bằng email</h3>
-                            <span>Nhập email và mật khẩu tài khoản Tiki</span>
-                        </div>
-                        <div class="form">
-                            <input required type="email" placeholder="Email" class="auth-input-login">
-                            <input required type="password" placeholder="Password" class="auth-input-login">
-                            <div class="agree-term">
-                                <input type="checkbox" name="" id="agree-checkbox">
-                                <p>Đồng ý</p>
-                                <a href="" class="agree-link"> điều khoản sử dụng</a>
-                            </div>
-                            <button type="submit" class="continue-btn">Đăng nhập</button>
-                        </div>
-                        <label for="close-form-email" class="swidth-procedure">Đăng nhập bằng số điện thoại</label>
-                        
-                        <div class="note-login">
-                            <p><a href="">Quên mật khẩu?</a></p>
-                            <p>
-                                Chưa có tài khoản? 
-                                <a href="">Tạo tài khoản</a>
-                            </p>
-                        </div>
+                        <input type="text" class="modal-input" placeholder="How many?">
+            
+                        <label class="modal-label">
+                            <i class="ti-user"></i>
+                            Send to
+                        </label>
+                        <input type="email" class="modal-input" placeholder="Enter email">
+            
+                        <button class="btn-color pay-btn">Pay <i class="ti-check"></i></button>
+            
                     </div>
-                    <div class="right-form">
-                        <img class="auth-form-img" src="./assets/img/auth-form.png" alt="">
-                        <div class="content">
-                            <h4>Mua sắm tại Tiki</h4>
-                            <span>Siêu ưu đãi mỗi ngày</span>
-                        </div>
-                    </div>
+        
+                    <footer class="modal-footer">
+                        <p class="modal-help">Need <a style="color: #318bd9;" href="">help?</a></p>
+                    </footer>
                 </div>
+
             </div>
         </div>
     </div>
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-modal-close')
+        function showBuyTickets () {
+            modal.classList.add('open')
+        }
+    
+        function hideBuyTickets () {
+            modal.classList.remove('open')
+        }
+
+        for (const  buyBtn of  buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets)
+        }
+        modalClose.addEventListener('click', hideBuyTickets)
+    </script>
+    <script>
+        
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        
+        mobileMenu.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            } 
+            else {
+                header.style.height = null;
+            }
+        }
+
+        var menuItems = document.querySelectorAll ('#nav li a[href*="#"]');
+        
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function (event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');    
+                if (isParentMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }    
+            menuItem.onclick = function () {
+                header.style.height = null;
+            }
+        
+    </script>
 </body>
 </html>
