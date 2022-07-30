@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #0d9e73;
+    --text-color: #bfbfbf;
+    --header-color: #444444;
+    --container-color: #222;
+    --white-color: #fff;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
