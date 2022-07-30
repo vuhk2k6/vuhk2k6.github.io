@@ -49,6 +49,7 @@ body {
     align-items: center;
     padding: 70px 30px 35px;
     background-color: var(--header-color);
+    width: 100%;
 }
 
 .header__avartar {
