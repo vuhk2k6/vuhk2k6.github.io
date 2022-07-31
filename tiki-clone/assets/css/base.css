@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #1a94ff;
+    --text-color: rgb(0, 0, 0, 0.8);
+    --header-height: 100px;
+    --btn-color: rgb(13, 92, 182);
+    --white-color: #fff;
+    --nav-height: 40px;
+    --btn-color: #ee4d2d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: inherit;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+body {
+    transition: all linear 0.3s;
+    animation: openForm linear 0.3s;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
