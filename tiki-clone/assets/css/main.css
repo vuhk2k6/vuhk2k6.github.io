@@ -97,7 +97,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0 8px;
-    background-color: var(--btn-color);
+    background-color: var(--search-btn-color);
     width: 100px;
     border-radius: 3px;
 }
