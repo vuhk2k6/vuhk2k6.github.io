@@ -183,7 +183,7 @@ body {
     margin-bottom: 7px;
     line-height: 7.4rem;
     font-weight: 600;
-
+    text-align: center;
 }
 
 .home__content-desc {
@@ -925,16 +925,24 @@ body {
 
 .nav-mobile {
     position: absolute;
-    width: 100%;
-    max-width: 330px;
+    width: 0;
     background-color: var(--header-color);
     height: 100%;
+    top: 0;
+    bottom: 0;
     right: 0;
     overflow-y: auto;
     z-index: 99;
-    transform: translateX(100%);
-    opacity: 0;
-    transition: all ease-in-out 0.3s;
+    transition: width 0.3s ease-in-out;
+}
+
+@keyframes showMenu {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #close-menu,
@@ -956,8 +964,12 @@ body {
 }
 
 #open-menu:checked ~ .nav-mobile {
-    transform: translateX(0);
-    opacity: 1;
+    max-width: 100%;
+    width: 330px;
+}
+
+label {
+    display: block;
 }
 
 .mobile-nav {
