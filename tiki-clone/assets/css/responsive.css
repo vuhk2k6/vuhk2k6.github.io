@@ -189,9 +189,10 @@
         top: 0;
         background: var(--white-color);
         z-index: 1000;
+        -webkit-tap-highlight-color: transparent;
     }
 
-    .back-home .grid.wide {
+    .product-detail-theme #main {
         overflow: hidden;
     }
 
@@ -286,7 +287,10 @@
     .buy-btn-mb {
         width: 50%;
         background-color: var(--btn-color);
-        columns: var(--white-color);
+        color: var(--white-color);
+        outline: none;
+        border: 0;
+
     }
 
     .auth-form {
@@ -403,6 +407,9 @@
 
     #expand-desc:checked ~ .expand-btn span:last-child {
         display: block;
+    }
+    .footer-bottom {
+        margin-bottom: 64px;
     }
 }
 
