@@ -2,6 +2,7 @@
 #header {
     height: var(--header-height);
     background-color: var(--primary-color);
+    -webkit-tap-highlight-color: transparent;
 }
 
 #open-form-search {
@@ -479,6 +480,7 @@
     position: relative;
     background-color: #efefef;
     -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .main__category {
@@ -533,7 +535,7 @@
 /* product */
 .product-detail-theme #header {
     position: fixed;
-    z-index: 1000;
+    z-index: 80;
     top: 0;
     width: 100%;
 }
@@ -715,6 +717,7 @@
 /* footer */
 #footer {
     border-top: 3px solid var(--primary-color);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .footer-wrap.wide {
