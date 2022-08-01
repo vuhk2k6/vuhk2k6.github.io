@@ -292,6 +292,14 @@
     .wide {
         width: 984px;
     }    
+    .flex.justify-around.align-center {
+        flex-direction: column;
+    }
+
+    .flex.align-center:first-child {
+        margin-bottom: 8px;
+        border-right: 0 !important;
+    }
 }
 
 @media (min-width: 1023px) {
