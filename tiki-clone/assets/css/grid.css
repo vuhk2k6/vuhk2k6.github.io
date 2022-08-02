@@ -5,7 +5,6 @@
 }
 
 .grid.wide {
-    overflow: hidden;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
@@ -281,10 +280,6 @@
     .m-o-11 {
         margin-left: 91.66667%;
     }
-}
-
-@media (min-width: 1113px) {
-
 }
 
 /* pc */
