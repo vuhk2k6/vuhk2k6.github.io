@@ -1,0 +1,30 @@
+@mixin page {
+  position: absolute;
+  width: 100%;
+  height: 39rem;
+  padding: 0 6rem 3rem 6rem;
+  bottom: -39rem;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(3rem);
+  font-family: "Pacifico", cursive;
+}
+@mixin active {
+  bottom: 0;
+  filter: blur(0);
+  opacity: 1;
+}
+@mixin studentBtn {
+  position: absolute;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba($color: #000000, $alpha: 0.8);
+  width: 4rem;
+  height: 4rem;
+  font-size: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.home {
+  @include page;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  &.active {
+    @include active;
+  }
+  &-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $color-white;
+  }
+  &__heading {
+    font-size: 6.2rem;
+    line-height: 7rem;
+    margin-bottom: 3.2rem;
+  }
+  &__title {
+    font-size: 1.8rem;
+  }
+  &__img {
+    width: 24rem;
+    position: absolute;
+    transition: all 0.25s;
+    &:hover {
+      transform: scale(1.2);
+      z-index: 10;
+      outline: 1rem solid #7b2066;
+      outline-offset: 0.8rem;
+    }
+  }
+}
+
+#home__img {
+  &-1 {
+    top: 4rem;
+    right: 23rem;
+  }
+  &-2 {
+    top: 20rem;
+    right: 17rem;
+  }
+  &-3 {
+    top: 8rem;
+    right: 7rem;
+  }
+}

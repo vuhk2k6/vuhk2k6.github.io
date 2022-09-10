@@ -1,0 +1,99 @@
+.student {
+  @include page;
+  &.active {
+    @include active;
+  }
+  &__main {
+    width: 98rem;
+    height: 100%;
+  }
+  &__list {
+    height: 100%;
+    &-item {
+      height: 100%;
+      &.active {
+        & .student__img-box {
+          position: absolute;
+          left: 0;
+          transform: scale(1);
+          opacity: 1;
+          filter: blur(0);
+        }
+        & .student__info {
+          left: 3rem;
+          opacity: 1;
+          filter: blur(0);
+        }
+      }
+    }
+  }
+  &__img {
+    height: 36rem;
+    position: absolute;
+    width: 40rem;
+    top: 0;
+    left: 36rem;
+    &-box {
+      height: 100%;
+      left: 100%;
+      transition: all 0.8s;
+      transform: scale(0);
+      opacity: 0;
+      filter: blur(3rem);
+    }
+  }
+  &__info {
+    width: 26rem;
+    height: 36rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    position: absolute;
+    opacity: 0;
+    filter: blur(3rem);
+    top: 0;
+    left: -28rem;
+    transition: all 0.8s;
+    box-shadow: 0 1rem 2rem rgba($color: #000000, $alpha: 0.2);
+    background-image: linear-gradient(to right bottom, #7b2066, #200c4e);
+    &-name {
+      font-size: 2.4rem;
+      text-transform: capitalize;
+      color: $color-white;
+      margin-bottom: 0.6em;
+    }
+    &-hobby,
+    &-nickname,
+    &-class {
+      font-size: 1.8rem;
+      color: $color-white;
+      margin-bottom: 0.4rem;
+    }
+  }
+  &__category {
+    position: absolute;
+    right: 3rem;
+    top: 0;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem rgba($color: #000000, $alpha: 0.2);
+    background-image: linear-gradient(to left bottom, #200c4e, #7b2066);
+    width: 29rem;
+    height: 36rem;
+    padding: 2rem;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &-item {
+      color: $color-white;
+      font-size: 1.8rem;
+      padding: 0.4rem 2rem;
+      border-radius: 1rem;
+      text-transform: capitalize;
+      user-select: none;
+      transition: all 0.25s;
+      &:hover {
+        background-color: rgba($color: #000000, $alpha: 0.2);
+      }
+    }
+  }
+}
