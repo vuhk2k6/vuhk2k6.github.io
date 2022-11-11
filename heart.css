@@ -17,7 +17,6 @@ canvas {
 html,
 body {
     height: 100%;
-    /* for touch screen */
     touch-action: none;
 }
 
@@ -93,7 +92,6 @@ body {
 }
 
 #music-container {
-    /* display: none; */
     position: absolute;
     top: 0;
     left: 50%;
@@ -163,12 +161,11 @@ canvas {
 }
 
 canvas {
-    /* top: 50%; left: 50%; */
     z-index: 1;
     display: block;
     position: absolute;
     transform: translate(-50%, -50%);
-    animation: heart 1.5s ease infinite;
+    animation: heart 2s ease infinite;
 }
 
 @keyframes heart {
@@ -180,7 +177,18 @@ canvas {
         transform: scale(0.8);
     }
 
-    /* 60% { transform: scale(1.2); } */
+    40% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.8);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
     100% {
         transform: scale(1);
     }
